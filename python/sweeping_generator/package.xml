@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+
+  <name>pairs_example_sweeping_generator</name>
+  <version>1.0.0</version>
+  <description>The Python Example for Sweeping Generator</description>
+
+  <maintainer email="canhthanh@vnu.edu.vn">Thanh Nguyen Canh</maintainer>
+  <author email="canhthanh@vnu.edu.vn">Thanh Nguyen Canh</author>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>pairs_msgs</depend>
+
+  <export>
+  </export>
+
+</package>
