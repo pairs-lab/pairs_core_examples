@@ -1,6 +1,6 @@
 # Example Tracker Plugin
 
-Example tracker plugin for the MRS Control Manager.
+Example tracker plugin for the PAIRS Control Manager.
 
 ## How to start
 

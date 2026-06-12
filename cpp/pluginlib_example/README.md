@@ -1,6 +1,6 @@
 # Pluginlib Example
 
-A working example showcasing the [pluginlib](http://wiki.ros.org/pluginlib) feature of ROS, simular to what is used between the [ControlManager](https://github.com/ctu-mrs/pairs_uav_managers#controlmanager) and the [trackers](https://github.com/ctu-mrs/pairs_uav_trackers#mrs-uav-trackers-) and [controllers](https://github.com/ctu-mrs/pairs_uav_controllers#mrs-uav-controllers-) within the [MRS UAV System](https://github.com/ctu-mrs/pairs_uav_system).
+A working example showcasing the [pluginlib](http://wiki.ros.org/pluginlib) feature of ROS, simular to what is used between the [ControlManager](https://github.com/pairs-lab/pairs_uav_managers#controlmanager) and the [trackers](https://github.com/pairs-lab/pairs_uav_trackers#mrs-uav-trackers-) and [controllers](https://github.com/pairs-lab/pairs_uav_controllers#mrs-uav-controllers-) within the [PAIRS UAV System](https://github.com/pairs-lab/pairs_uav_system).
 
 ## pairs_example_plugin_manager package
 
@@ -24,4 +24,4 @@ roslaunch pairs_example_plugin_manager pairs_example_plugin_manager.launch
 
 # Dependencies
 
-* [pairs_lib](https://github.com/ctu-mrs/pairs_lib) for param loading and mutexing
+* [pairs_lib](https://github.com/pairs-lab/pairs_lib) for param loading and mutexing

@@ -1,16 +1,16 @@
-# MRS Core Examples
+# PAIRS Core Examples
 
-This repository includes Core ROS examples for the [MRS UAV System](https://github.com/ctu-mrs/pairs_uav_system).
+This repository includes Core ROS examples for the [PAIRS UAV System](https://github.com/pairs-lab/pairs_uav_system).
 
 ## Packages
 
 ## C++
 
 * [waypoint_flier_simple](./cpp/waypoint_flier_simple) - Minimalistic C++ Nodelet with "_vanilla_" ROS features
-* [waypoint_flier](./cpp/waypoint_flier) - Full C++ Nodelet with "_MRS_" libraries and wrappers
-* [controller_plugin](./cpp/controller_plugin) - Example of Controller plugin for the [ControlManager](https://github.com/ctu-mrs/pairs_uav_managers)
-* [tracker_plugin](./cpp/tracker_plugin) - Example of Tracker plugin for the [ControlManager](https://github.com/ctu-mrs/pairs_uav_managers)
-* [pluginlib_example](./cpp/pluginlib_example) - Example of ROS Pluginlib, similar to how it is used in the [ControlManager](https://github.com/ctu-mrs/pairs_uav_managers)
+* [waypoint_flier](./cpp/waypoint_flier) - Full C++ Nodelet with "_PAIRS_" libraries and wrappers
+* [controller_plugin](./cpp/controller_plugin) - Example of Controller plugin for the [ControlManager](https://github.com/pairs-lab/pairs_uav_managers)
+* [tracker_plugin](./cpp/tracker_plugin) - Example of Tracker plugin for the [ControlManager](https://github.com/pairs-lab/pairs_uav_managers)
+* [pluginlib_example](./cpp/pluginlib_example) - Example of ROS Pluginlib, similar to how it is used in the [ControlManager](https://github.com/pairs-lab/pairs_uav_managers)
 
 ## Python
 

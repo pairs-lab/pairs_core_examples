@@ -1,7 +1,7 @@
 # ExampleWaypointFlier ROS example
 
 This package was created as an example of how to write ROS nodelets.
-The package is written in C++ and features custom MRS libraries and msgs.
+The package is written in C++ and features custom PAIRS libraries and msgs.
 
 ## Functionality
 
