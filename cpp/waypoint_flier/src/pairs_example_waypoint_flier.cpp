@@ -28,7 +28,7 @@
 /* for storing information about the state of the uav (position, twist) + covariances */
 #include <nav_msgs/Odometry.h>
 
-/* custom msgs of MRS group */
+/* custom msgs of PAIRS group */
 #include <pairs_msgs/ControlManagerDiagnostics.h>
 #include <pairs_msgs/Float64Stamped.h>
 #include <pairs_msgs/ReferenceStamped.h>
