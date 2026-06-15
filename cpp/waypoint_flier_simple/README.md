@@ -1,7 +1,7 @@
 # WaypointFlier Simple - ROS simple example
 
 This package was created as an example of how to write a very simple ROS nodelet.
-You can test the program in simulation (see our [simulation tutorial](https://ctu-mrs.github.io/docs/simulation/howto.html)).
+You can test the program in the PAIRS Gazebo simulation.
 
 ## Functionality
 
@@ -37,4 +37,4 @@ See [ROS packages](http://wiki.ros.org/Packages)
 
 ## More complex example
 
-* To see a similar node with more functionality and features, see [example_ros_uav](https://github.com/ctu-mrs/example_ros_uav)
+* To see a similar node with more functionality and features, see the [waypoint_flier](../waypoint_flier) example.
