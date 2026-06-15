@@ -62,8 +62,8 @@ class Node:
 
         rospy.loginfo('[SweepingGenerator]: planning path')
 
-        # https://ctu-mrs.github.io/pairs_msgs/srv/PathSrv.html
-        # -> https://ctu-mrs.github.io/pairs_msgs/msg/Path.html
+        # pairs_msgs/srv/PathSrv.html
+        # -> pairs_msgs/msg/Path.html
         path_msg = PathSrvRequest()
 
         path_msg.path.header.frame_id = self.frame_id
@@ -80,7 +80,7 @@ class Node:
 
             for j in numpy.arange(-self.dimensions_y/2.0, self.dimensions_y/2.0, step_size):
 
-                # https://ctu-mrs.github.io/pairs_msgs/msg/Reference.html
+                # pairs_msgs/msg/Reference.html
                 point = Reference()
 
                 point.position.x = self.center_x + i
